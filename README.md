@@ -31,15 +31,30 @@ $ https://github.com/connorcoley/scscore.git
 ```
 ## Preparation
 We provided our pre-trained model and large datasets in the following link (due to heavy file size)--
-
-## Training RL agent 
+### Training
+## Pre-training of RL agent 
 ```
 $ python rl_agent_training.py --dataset <type>
 ```
 `<type>` is one of the large datasets ['ChEMBL', 'ZINC', 'COCONUT'].
-## Training Surrogate regressor 
+## Pre-training of surrogate regressor 
 ```
 $ python regressor_training.py --dataset <type>
 ```
 `<type>` is one of the reaction datasets ['Reaction_a', 'Reaction_b', 'Reaction_c']. 
+
 **NB:** *Change the hyper-parameters regarding the datasets like the number of augmented smiles, dropout ratios, etc.*
+## Training of RL agent under reaction-tailored reward functionalities
+Once you are ready with the trained RL agent and regressor, use the following commands-
+Reaction A
+```
+$ !python Reaction_A_rl_training.py --agent_dataset ChEMBL --trajectories_method random --num_trajectories 1000
+```
+Reaction B
+```
+$ !python Reaction_B_rl_training.py --agent_dataset ChEMBL --trajectories_method random --num_trajectories 1000
+```
+Reaction C
+```
+$ !python Reaction_C_rl_training.py --agent_dataset ChEMBL --trajectories_method random --num_trajectories 1000
+```
