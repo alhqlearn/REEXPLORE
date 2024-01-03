@@ -22,3 +22,8 @@ $ pip install PyTDC
 $ pip install networkx
 $ pip install fcd-torch
 ```
+## Git repository
+```
+$ https://github.com/fastai/fastai1.git
+$ https://github.com/connorcoley/scscore.git
+```
