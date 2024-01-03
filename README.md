@@ -32,5 +32,13 @@ $ https://github.com/connorcoley/scscore.git
 ## Preparation
 We provided our pre-trained model and large datasets in the following link (due to heavy file size)--
 
-## Training RL agent and Surrogate regressor 
-
+## Training RL agent 
+```
+$ python rl_agent_training.py --dataset <type>
+```
+<type> is one of the large datasets ['ChEMBL', 'ZINC', 'COCONUT'].
+## Training Surrogate regressor 
+```
+$ python regressor_training.py --dataset <type>
+```
+<type> is one of the reaction datasets ['Reaction_a', 'Reaction_b', 'Reaction_c']. 
