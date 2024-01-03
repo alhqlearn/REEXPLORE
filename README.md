@@ -36,10 +36,10 @@ We provided our pre-trained model and large datasets in the following link (due 
 ```
 $ python rl_agent_training.py --dataset <type>
 ```
-$<type>$ is one of the large datasets ['ChEMBL', 'ZINC', 'COCONUT'].
+`<type>` is one of the large datasets ['ChEMBL', 'ZINC', 'COCONUT'].
 ## Training Surrogate regressor 
 ```
 $ python regressor_training.py --dataset <type>
 ```
-$<type>$ is one of the reaction datasets ['Reaction_a', 'Reaction_b', 'Reaction_c']. 
+`<type>` is one of the reaction datasets ['Reaction_a', 'Reaction_b', 'Reaction_c']. 
 **NB:** *Change the hyper-parameters regarding the datasets like the number of augmented smiles, dropout ratios, etc.*
