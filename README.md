@@ -31,3 +31,8 @@ $ pip install fcd-torch
 $ https://github.com/fastai/fastai1.git
 $ https://github.com/connorcoley/scscore.git
 ```
+## Preparation
+We provided our pre-trained model and large datasets in the following link (due to heavy file size)--
+
+## Training RL agent and Surrogate regressor 
+
