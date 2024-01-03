@@ -9,7 +9,6 @@ In this work, we demonstrate how reward shaping can render a policy gradient rei
 
 ## Environmental Setup
 
-Please clone two existing repository after creating your own environment with python 3.7.16.
 ```
 conda create --name REEXPLORE python=3.7.16
 conda activate REEXPLORE
@@ -25,13 +24,16 @@ pip install networkx
 pip install fcd-torch
 ```
 ## Git repository
+Please clone two existing repositories (fastai and synthetic complexity score) after creating your environment with Python 3.7.16.
 ```
 https://github.com/fastai/fastai1.git
+```
+```
 https://github.com/connorcoley/scscore.git
 ```
 ## Preparation
-We provided our pre-trained model and large datasets in the following link (due to heavy file size)--
-### Training
+We provided our pre-trained model and large datasets in the following link (due to the heavy file size)--
+# Training
 ## Pre-training of RL agent 
 ```
 python rl_agent_training.py --dataset <type>
