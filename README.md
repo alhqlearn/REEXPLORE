@@ -63,4 +63,8 @@ python Reaction_C_rl_training.py --agent_dataset ChEMBL --trajectories_method ra
 ```
 where `--agent_dataset` is the molecular database containing the dataset, `--trajectories_method` is one of ['random', 'topp', 'topk'] sampling methods for the molecular generative process, and `--num_trajectories` is the number of trajectories sampled during one episode of RL task.
 
-**NB:** `--core_fragment` may be left out if you don't want to change the core fragment to be attached with the generated molecule.
+**NB:** `--core_fragment` may be left out if you don't want to change the core fragment to be attached to the generated molecule.
+
+### Acknowledgements
+
+### Citations
