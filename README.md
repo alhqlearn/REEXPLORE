@@ -48,6 +48,7 @@ python regressor_training.py --dataset <type>
 **NB:** *Change the hyper-parameters regarding the datasets like the number of augmented smiles, dropout ratios, etc.*
 ## Training of RL agent under reaction-tailored reward functionalities
 Once you are ready with the trained RL agent and regressor, use the following commands-
+
 Reaction A
 ```
 python Reaction_A_rl_training.py --agent_dataset ChEMBL --trajectories_method random --num_trajectories 1000
