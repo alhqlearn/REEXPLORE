@@ -32,7 +32,7 @@ https://github.com/fastai/fastai1.git
 https://github.com/connorcoley/scscore.git
 ```
 ### Preparation
-We provided our pre-trained model and large datasets in the following link (due to the heavy file size)--
+We provided our pre-trained model and large datasets in Git LFS format.
 ## Training
 ### Pre-training of RL agent 
 ```
