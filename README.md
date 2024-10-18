@@ -36,7 +36,7 @@ We provided our pre-trained model and large datasets in Git LFS format.
 ## Training
 ### Pre-training of RL agent 
 ```
-python rl_agent_training.py --dataset <type>
+python rl_agent_training.py
 ```
 `<type>` is one of the datasets of large chemical databases ['ChEMBL', 'ZINC', 'COCONUT']. The default molecular database is ChEMBL.
 ### Pre-training of surrogate regressor 
