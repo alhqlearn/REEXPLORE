@@ -68,7 +68,9 @@ where `--agent_dataset` is the molecular database containing the dataset, `--tra
 ### Acknowledgements
 We would like to acknowledgement the following works, 
 https://github.com/Sunojlab/Transfer_Learning_in_Catalysis
+
 https://github.com/skinnider/low-data-generative-models
+
 https://github.com/isayev/ReLeaSE
 
 ### Citations
