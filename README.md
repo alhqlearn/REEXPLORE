@@ -66,5 +66,10 @@ where `--agent_dataset` is the molecular database containing the dataset, `--tra
 **NB:** `--core_fragment` may be left out if you don't want to change the core fragment.
 
 ### Acknowledgements
+We would like to acknowledgement the following works, 
+https://github.com/Sunojlab/Transfer_Learning_in_Catalysis
+https://github.com/skinnider/low-data-generative-models
+https://github.com/isayev/ReLeaSE
 
 ### Citations
+If you found this code/work to be useful, please cite our work 'J. Am. Chem. Soc. 2024, 146, 41, 28250–28267', https://doi.org/10.1021/jacs.4c08866
