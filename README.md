@@ -32,11 +32,13 @@ https://github.com/fastai/fastai1.git
 https://github.com/connorcoley/scscore.git
 ```
 ### Preparation
-We provided our pre-trained model and large datasets in Git LFS format. Moreover, all the three datasets used for pre-training are provided in the following link 
+
+Our pre-trained models are available in Git LFS format. Additionally, all three datasets used for pre-training can be accessed via the link below:
 
 https://drive.google.com/drive/folders/1n-MfWsh3Y1d_HflR44dVPX1UbHuRq0BK?usp=sharing
 
-Download it and keep it in `dataset` folder.
+Please download the datasets and place them in the `dataset` folder.
+
 ## Training
 ### Pre-training of RL agent 
 ```
