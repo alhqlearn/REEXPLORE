@@ -81,4 +81,21 @@ https://github.com/skinnider/low-data-generative-models
 https://github.com/isayev/ReLeaSE
 
 ### Citations
-If you found this code/work to be useful, please cite our work 'J. Am. Chem. Soc. 2024, 146, 41, 28250–28267', https://doi.org/10.1021/jacs.4c08866
+
+If you find this code or work useful in your research, please cite:
+
+**Hoque, A.; Surve, M.; Kalyanakrishnan, S.; Sunoj, R. B.** *Reinforcement Learning for Improving Chemical Reaction Performance.* Journal of the American Chemical Society **2024**, *146* (41), 28250–28267. DOI: https://doi.org/10.1021/jacs.4c08866
+
+### BibTeX
+```bibtex
+@article{Hoque2024_REEXPLORE,
+  author    = {Hoque, A. and Surve, M. and Kalyanakrishnan, S. and Sunoj, R. B.},
+  title     = {Reinforcement Learning for Improving Chemical Reaction Performance},
+  journal   = {Journal of the American Chemical Society},
+  year      = {2024},
+  volume    = {146},
+  number    = {41},
+  pages     = {28250--28267},
+  doi       = {10.1021/jacs.4c08866}
+}
+
